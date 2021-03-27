@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-
-echo `1+2`
+val=`expr 1 + 2`
+echo "$val"
